@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *chessBoard;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *whiteCellsCollection;
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *allCheckers;
 
 @end
 
